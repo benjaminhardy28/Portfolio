@@ -1,3 +1,3 @@
 #Custom Notification Website
 
-This is a project I am still currently working on but am finishing up. This website uses React JS for the front end and Python Flask for the backend.
+This website is a project I started in the beginning of summer 2023 and is almost finished. I used React JS for the front end and Python Flask for the backend.
