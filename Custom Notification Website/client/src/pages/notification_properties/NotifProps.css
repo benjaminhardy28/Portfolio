@@ -1,0 +1,196 @@
+.notifProps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifProps, h{
+    font-size: 1.5rem;
+    padding-bottom:10px;
+}
+
+.notifSettings{
+    padding:40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.specificPageTitle {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.promptTextBox {
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;  
+}
+
+.promptTextBoxContainer {
+    padding: 10px;
+}
+
+.promptTextBox, p {
+    padding: 0px;
+    color: black;
+}
+
+.editButton{
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+.editButtonContainer{
+    padding-top:20px;
+}
+
+.notifInfoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifsDisplayBox{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    grid-template-rows: repeat(3, 1fr); /* Two rows */
+    row-gap: 20px; 
+    column-gap: 10px; 
+    align-items: center;
+    margin-left: 30px; 
+    position: flex;
+}
+
+.notifProps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifProps, h{
+    font-size: 1.5rem;
+    padding-bottom:10px;
+}
+
+.notifSettings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.specificPageTitle {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.promptTextBox {
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;  
+}
+
+.promptTextBoxContainer {
+    padding: 10px;
+}
+
+.promptTextBox, p {
+    padding: 0px;
+    color: black;
+}
+
+.editButton{
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+.editButtonContainer{
+    padding-top:20px;
+}
+
+.notifInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eachNotifCard{
+    width: 1000px;
+    height: 200px;
+    background-color: #f9f9f9;
+    padding: 0px;
+    border-radius: 20px;  
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    font-size: 1rem;
+}
+
+.eachNotifCard, ul {
+    padding: 50px;
+    align-items: center;
+    margin: 5;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.buttonsContainer{
+    padding-bottom:20px;
+}
+
+.notifDescription{
+    font: inherit;
+    font-size:80%;
+    height: 200px;
+    width: 800px;
+}
+
+.deleteButtonContainer{
+    position:relative;
+    margin-left: 650px;
+    margin-top: 0px;
+}
+
+
+.deleteButton{
+    font: inherit;
+    color: #ff0000;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    outline: 2px solid #000000;
+    background-color: transparent;
+    transition: outline-color 500ms;
+    
+}
+
+.deleteButton:hover{
+    outline: 2px solid #ff0000;
+    background-color: aliceblue;
+    cursor:pointer;
+}
+
+.buttonContainer{
+    padding:30px;
+}
+
+.deleteNotifCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkBoxExpansion{
+    font-size:200%;
+}

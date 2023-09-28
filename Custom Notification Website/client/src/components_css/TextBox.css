@@ -1,0 +1,38 @@
+.inputGroup {
+    position: relative;
+    padding: 5px;
+}
+
+.inputGroup__input {
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid #000000;
+    background-color: transparent;
+    transition: outline-color 500ms;
+}
+
+.inputGroup__input:focus,
+.inputGroup__input:valid {
+    outline-color: #962fce;
+}
+
+.inputGroup__label {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    color: #0d0c0c;
+    transition: transform 500ms, scale 500ms;
+}
+
+.inputGroup__input:focus + .inputGroup__label,
+.inputGroup__input:valid + .inputGroup__label {
+    padding-inline: 5px;
+    transform: translate(-10px, -14px) scale(0.8);
+    background-color: #f9f9f9;
+}
+
+.authorizeInputContainer{
+    padding-bottom:0px;
+}

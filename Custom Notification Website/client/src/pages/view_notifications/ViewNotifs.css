@@ -1,0 +1,238 @@
+.viewNotifs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specificPageTitle {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.notifCardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-template-rows: repeat(4, 1fr); /* Two rows */
+    row-gap: 20px; 
+    column-gap: 10px; 
+    align-items: center;
+    position: flex;
+}
+
+
+.notifCard {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    width: 430px;
+    height: 150px;
+    background-color: #f9f9f9;
+    border-radius: 20px;  
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+
+.cardTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49, 49, 49, .8);
+}
+
+.exitButton{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.exitButtonIcon {
+    font-size: 1.3rem;
+}
+
+
+.notifCard:hover {
+    background-color: #ebfcfc;
+}
+
+.blur {
+    filter: blur(4px); /* Add desired blur amount */
+}
+
+.notifCard, p {
+    color: #26047d;
+    text-decoration: none;
+    position: center;
+}
+
+.notifCard, ul {
+    padding: 5;
+    margin: 5;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.createNewNotifCard {
+    width: 800px;
+    height: 700px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 20px;  
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createNewNotifCard, h2{
+    padding-top:15px;
+}
+
+.websiteTextInput {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;  
+}
+
+.promptTextInput {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;   
+}
+
+.promptTextContainer {
+    padding: 10px;
+}
+
+.promptTextInput, p {
+    padding: 0px;
+    color: black;
+}
+
+.radioButtonContainer {
+    flex-direction: row;
+}
+
+.checkBoxButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.checkBoxExpansion{
+    font-size:201%;
+}
+
+.messageIconExpansion{
+    font-size:400%;
+}
+
+.submitButtonContainer{
+    padding-bottom:50px;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customIcon {
+    font-size: 3rem;
+}
+  
+.promptInput{
+    height: 100px;
+    width: 550px;
+    margin-bottom: 0px;
+}
+
+.submitNotifButton{
+    font: inherit;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid #7720d5;
+    background-color: transparent;
+    transition: outline-color 500ms;
+}
+
+.submitNotifButton:hover{
+    outline: 2px solid #000000;
+    background-color: aliceblue;
+    cursor:pointer;
+}
+
+.infoContainer{
+    text-align: center;
+    width: 600px;
+    height: 80px;
+}
+
+.searchBar{
+    width:300px;
+    font-size:120%;
+}
+
+.searchBarContainer{
+    padding-bottom:20px;
+}
+
+
+.addNotif{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.viewNotifsHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom:20px;
+    background-color: rgb(243, 243, 243);
+}
+
