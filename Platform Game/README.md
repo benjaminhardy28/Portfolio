@@ -1,6 +1,6 @@
 # Platformer
 Underwater Platform game
-This is a platform game made entirely in java uning Java Swing. Everything was built from scratch, including game animations and collisison.s
+This is a platform game made entirely in java uning Java Swing. Everything was built from scratch, including game animations and collisison.
 It contains the key componenets like a player, a monitoring enemy, platforms (ofc), and and end goal of reaching the anchor.  
 
 - ***Platformer/res/*** contains all the Images needed for the program. 
