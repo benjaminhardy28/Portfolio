@@ -1,4 +1,7 @@
 # Platformer
+
+This project is organized using Maven and it is written completely in Java.
+
 This is a platform game made entirely in java using Java Swing for the front end. Everything was built from scratch, including game animations and collisison.
 It contains the key componenets like a player, a monitoring enemy, platforms (ofc), and and end goal of reaching the anchor.  
 
