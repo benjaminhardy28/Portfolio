@@ -1,6 +1,6 @@
 import openai
 
-API_KEY = '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'
+#API_KEY = (hidden)
 openai.api_key = API_KEY
 
 class NotificationGenerator():
