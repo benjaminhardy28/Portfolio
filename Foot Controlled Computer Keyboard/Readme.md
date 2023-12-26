@@ -13,6 +13,6 @@ This is a group project that I led during my senior year of high school to devel
 * The process of brainstorming, planning, designing, and building a proffesional product.
 
 
-# Demo
+# Demo Videos/Pictures
 
 Here is a link to view images, demos, and schematics that I developed for this project: https://drive.google.com/drive/folders/1aRTm9p0NSisk9WzqD7VZmUBCpWmrmV8R?usp=drive_link
