@@ -5,7 +5,7 @@ This is a group project that I led during my senior year of high school to devel
 # What I Learned
 
 * How to implement MVC principles and multithreading to a full stack application
-* How to use an Arduino to compute Analog and Digital inputs and provide real-time USB input
+* How to use and program an Arduino using C++ to compute Analog and Digital inputs and provide real-time USB input
 * How to design electronic schematics and construct by soldering
 * How to use Serial Port communication to allow for communication among seperate programs
 * How to develop a user-friendly GUI using Python
