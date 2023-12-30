@@ -1,6 +1,6 @@
 # Portfolio
 
-My name is Ben Hardy and within this repository there are all of my projects, including demos and other relevant information. Here is a breif description of each project:
+My name is Ben Hardy and within this repository there are all of my projects, each including demos and other relevant information. Here is a breif description of each project:
 
 ### Foot Controlled Computer Keyboard
 - This was a year long high school project where I built a foot controlled keyboard for individuals lacking upper body extremeties. This project make use of electronic circuitry and utlizies Python and C++.
